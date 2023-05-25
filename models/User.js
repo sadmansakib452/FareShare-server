@@ -1,21 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// const driverValidation = ({roles, vehicle}) => {
-//   if (roles === "USER" || roles === "ADMIN") {
-//     return false;
-//   } else {
-//     // if (
-//     //   vehicle.type === undefined &&
-//     //   vehicle.model === undefined &&
-//     //   vehicle.licensePlate === undefined
-//     // ) {
-//     //   return true;
-//     // } else {
-//     //   return false;
-//     // }
-//   }
-// }
 
 // Define the User schema
 const userSchema = new Schema({
